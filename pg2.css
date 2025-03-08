@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+     
     
   }
   
@@ -9,7 +10,8 @@
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
-
+    overflow-x: hidden;
+    
   }
   
   .header {
@@ -19,7 +21,7 @@
     position: relative;
     width: 100%;
     padding: 10px;
-    background-color: #333;
+    background-color:rgb(90,200,250);
     color: white;
     padding: 20px 40px;
     box-shadow: 2px 1px 1px;
@@ -27,13 +29,13 @@
   }
     
     .title {
-      font-size: 30px;
+      font-size: 28px;
       font-weight: bold;
        
   }
   .logo {
     position: absolute;
-    left: 20px; /* Adjust distance from the left */
+    left: 10px; /* Adjust distance from the left */
     width: 70px; /* Adjust size */
     height: auto;
    }
@@ -97,7 +99,7 @@
   }
   
   footer {
-    background-color: #333;
+ background-color:rgb(90,200,250);
     color: white;
     padding: 30px 20px;
   }
@@ -194,4 +196,23 @@ text-align: center;
 box-shadow: 2px 2px 2px;
 border-radius: 8px;
 
+}
+@media only screen and (max-width: 363px) {
+  .header div {font-size: 25px ;}
+  .header{width: 370px; height: 60px;}  
+  .image-container .blog-post img{width: 250px; height: 250px;}
+  .maps iframe {width: 250px; height: 250px;}
+  .footer-content {display: flex;flex-direction: column;}
+  .social-media img{ text-align: center;}
+ .title{ position: absolute;
+  left: 80px; width: 20;}
+  * {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    
+  }
+  .logo{
+  width:39px;
+  }
 }
