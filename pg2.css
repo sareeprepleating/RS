@@ -197,7 +197,7 @@ box-shadow: 2px 2px 2px;
 border-radius: 8px;
 
 }
-@media only screen and (max-width: 363px) {
+@media only screen and (max-width: 480px) {
   .header div {font-size: 25px ;}
   .header{width: 370px; height: 60px;}  
   .image-container .blog-post img{width: 250px; height: 250px;}
