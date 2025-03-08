@@ -205,7 +205,7 @@ border-radius: 8px;
   .footer-content {display: flex;flex-direction: column;}
   .social-media img{ text-align: center;}
  .title{ position: absolute;
-  left: 80px; width: 20px;}
+  left: 80px; }
   * {
     margin: 0;
     padding: 0;
