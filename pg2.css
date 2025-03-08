@@ -201,7 +201,7 @@ border-radius: 8px;
   .header div {font-size: 25px ;}
   .header{width:100%; height: 60px;}  
   .image-container .blog-post img{width: 250px; height: 250px;}
-  .maps iframe {width: 250px; height: 130px;}
+  .maps iframe {width: calc(100% - 100px); height: 170px;}
   .footer-content {display: flex;flex-direction: column;}
   .social-media img{ text-align: center;}
  .title{ position: absolute;
