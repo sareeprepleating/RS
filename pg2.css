@@ -313,11 +313,11 @@ border-radius: 8px;
     cursor: pointer;
 }
 .EM{
-  width: 70%;
+  width:80%;
 }
 ._input{
  
-  width:280px;
+  width:calc(100%-30%);
 }
 ._textarea{
   width: 280px;
