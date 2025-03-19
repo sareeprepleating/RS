@@ -318,9 +318,12 @@ border-radius: 8px;
 ._input{
  
   width:95%;
+margin:auto;
 }
 ._textarea{
   width:95%;
+
+    margin:auto;
 }
 }
 
