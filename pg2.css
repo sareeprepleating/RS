@@ -317,7 +317,7 @@ border-radius: 8px;
 }
 ._input{
  
-  width:calc(100%-30%);
+  width:calc(100%-50%);
 }
 ._textarea{
   width: 280px;
