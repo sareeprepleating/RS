@@ -317,10 +317,10 @@ border-radius: 8px;
 }
 ._input{
  
-  width:calc(100%-50%);
+  width:40%;
 }
 ._textarea{
-  width: 280px;
+  width:40%;
 }
 }
 
